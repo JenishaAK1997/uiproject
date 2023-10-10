@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.left-sidebar{
+  background-color: white;
+  color:rgb(71, 71, 71);
+  display: block;
+  height:100%;
+}
+
+.right-content{
+  background-color: #f6f6f6;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0; 
+}
+.logo{
+  color: #013CC6;
+  font-weight: 500;
+}
+i{
+  margin-right: 15px;
+}
+.first-link {
+  border-left: 3px solid blue !important;  /* Set the left border to blue */
+  color: blue !important; /* Set the text color to blue */
+  /* Add other styles as needed */
+}
+.nav-link {
+  padding-left: 25px!important; /* Set left padding */
+  padding-right: 20px; /* Set right padding */
+  margin-bottom:20px;
+  /* Add other styles as needed */
+}
+.logo{
+  margin-top:30px;
+  margin-bottom:30px;
+margin-left: 20px;
+}
+.search{
+  display: flex;
+  background-color: white;
+  border: 1px solid lightgray;
+
+  
+ 
+}
+.search1{
+ 
+
+  padding: 10px 5px 10px 5px;
+
+}
+.tops{
+  background: transparent;
+  padding: 10px 5px ;
+  font-size: 25px;
+  color: #c6c6c6;
+}
+.rtop{
+  padding-top: 30px;
+  padding-left: 14px;
+  padding-bottom: 30px;
+}
+.s{
+  border: none;
+  width: 90%;
+  padding: 15px;
+ 
+}
+input:focus {
+  outline: none; /* Remove the default focus outline (optional) */
+  border: none; /* Remove the border */
+}
+
+
+.square-radio {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid #c6c6c6;
+  border-radius: 3px; /* Set border-radius to 0 for square shape */
+}
+
+/* Style for the radio input hidden */
+.square-radio input[type="radio"] {
+  display: none; /* Hide the actual radio input */
+}
+
+/* Style for the radio input when checked */
+.square-radio input[type="radio"]:checked + label {
+  background-color: #bcb9b9; /* Change background color when checked */
+}
+
+/* Style for the radio label (to create the square) */
+.square-radio label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Style to remove vertical borders */
+.custom-table th,
+.custom-table td {
+  border-right-style: hidden; /* Remove right border on both header and data cells */
+ line-height: 40px;
+}
+.last{
+  margin-top: 100%;
+}
+h5{
+  font-weight: 500;
+}
+
+
+.bell-icon-container {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  padding: 10px 0px 10px 10px;
+}
+
+/* Style for the bell icon with white background */
+.bell-icon {
+
+  padding: 10px;
+  border-radius: 50%;
+ 
+}
+
+/* Style for the yellow circle */
+.yellow-circle {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 217, 0);
+  border-radius: 50%;
+}
